@@ -6,6 +6,7 @@ namespace KristinaWaldt.Examples
     public class Openable_RotateFromLeft : OpenableTweenBase
     {
         private static readonly Vector3 HiddenRotation = new Vector3(0, -90, 0);
+        public OpenCloseTweenBase tfdsf;
         
         protected override Tween OnOpen()
         {
